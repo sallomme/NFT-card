@@ -1,0 +1,111 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background-color:#0d192c;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+
+  }
+  .wrapper {
+    padding: 24px;
+    background-color: #15263F;
+    border-radius: 15px;
+  }
+  .img-top > img {
+    max-width:100%;
+    border-radius: 8px;
+    overflow:hidden;
+  }
+
+  .box-text > a {
+    color: #FFF; 
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 0; 
+    display: inline-block;
+  }
+.box-text > a:hover {
+  color: hsl(178,100%,50%)
+}
+.flex {
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+padding: 25px 0; 
+}
+.days {
+  display:flex;
+  align-items: center;
+}
+.ethereum {
+  display:flex;
+  align-items: center;
+}
+.ethereum > p {
+  color: #00FFF8;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 8px;
+}
+.days > p { 
+  color: #8BACD9;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 8px;
+}
+.box-text >p {
+  font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #8BACD9;
+}
+hr {
+  border-color: #2E405A;
+}
+.autor { 
+  display:flex;
+  align-items: center;
+  padding-top: 10px;
+  
+}
+.autor > img {
+  width:33px;
+  height:33px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  margin-right: 15px; 
+}
+.autor >p a {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+.autor >p a:hover { 
+  color: hsl(178,100%,50%)
+
+}
+.autor >p {
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #8BACD9;
+}
